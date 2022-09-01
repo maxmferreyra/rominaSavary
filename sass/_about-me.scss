@@ -1,0 +1,44 @@
+.about-me {
+    height: 100vh;
+    width: 90%;
+    margin: 60px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: $font-family;
+}
+
+.about-me h3 {
+    font-size: 24px;
+    margin: 15px 0px 20px 0px;
+}
+
+.about-me p {
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: start;
+    line-height: 28px;
+}
+
+.servicios {
+    margin-top: 20px;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servicios span {
+    background-color: rgba(118, 118, 118, 0.2);
+    border-left: 2px solid $SecundaryFontColor;
+    width: 60%;
+    height: 5vh;
+    text-align: center;
+    padding-top: 8px;
+}
+
+
+

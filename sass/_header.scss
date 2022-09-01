@@ -1,0 +1,130 @@
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    font-family: $font-family;
+}
+
+header img {
+    margin: 15px 30px 0px 0px;
+    width: 100px;
+    height: 50px;
+}
+
+label {
+    position: relative;
+    height: 20px;
+    width: 50px;
+    display: block;
+    cursor: pointer;
+    margin-top: 15px;
+    
+}
+
+.icon-menu,
+.icon-menu::before,
+.icon-menu::after {
+    content: '';
+    width: 20px;
+    height: 2px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    background-color: $MainFontColor;
+}
+
+.icon-menu::after {
+    top: 10px;
+}
+
+.icon-menu::before {
+    top: 5px;
+}
+
+nav {
+    height: 0px;
+    transition: all 0.4s ease-in-outs 2s;
+    overflow: hidden;
+    position: absolute;
+    top: 71px;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconos-contacto {
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.iconos-contacto img {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+
+
+.check {
+    display: none;
+}
+
+.check:checked ~ label > div {
+    transform: translateY(10px) rotate(45deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.check:checked ~ label > div::before {
+    transform: translateY(-5px) rotate(90deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.check:checked ~ label > div::after {
+    opacity: 0;
+    transform: translateY(-10px) rotate(90deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.check:checked~nav {
+    height: 400px; 
+    width: 480px;
+    transition: all 0.4s ease-in-outs 2s;
+}
+
+ul .list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item {
+    width: 200px;
+    height: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 7px 30px;
+    background-color: transparent;
+   color: white;
+   transition: all 0.5s;
+   margin: 10px auto;
+   border-bottom: 1px solid $SecundaryFontColor;
+   }
+
+  // proyectos generales
+
+  .arrow-left {
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+  }
+

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap');
+@import "variables";
+@import "header";
+@import "normalice";
+@import "inicio";
+@import "projects";
+@import "about-me";
+@import "clientes";
+@import "proyecto-individual";
+
+
+html {
+    background-color: white;
+}
+
+body {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+main {
+    padding-bottom: 40px;
+}
+/*
+section {
+    background: $colorUno;
+    h1 {
+        background-color: aqua;
+    }
+    h2 {
+        background-color: rgb(36, 56, 186);
+    }
+    p {
+        background: rgb(196, 166, 34);
+    }
+}
+
+
+@mixin cuadrado ($fondo, $alto:200px) {
+    background-color: $fondo;
+    height: $alto;
+    width: 200px;
+    margin: 5px;
+}
+
+.cuadrado-1 {
+    @include cuadrado(#111, 200px);
+}
+
+.cuadrado-2 {
+    @include cuadrado(#222);
+}
+
+.cuadrado-3 {
+    @include cuadrado(#333, 400px);
+} */
