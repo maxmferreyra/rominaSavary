@@ -122,7 +122,7 @@ nav {
 
 .check:checked~nav {
     height: 400px; 
-    width: 480px;
+    width: 420px;
     transition: all 0.4s ease-in-outs 2s;
 }
 
