@@ -1,4 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  list-style: none;
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  max-width: 480px;
+  margin: 0 auto;
+  height: 2000px;
+}
+
+main {
+  padding-bottom: 40px;
+}
+
 header {
   width: 100%;
   display: flex;
@@ -124,17 +149,6 @@ ul .list-item {
   margin-left: 25px;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: content-box;
-  list-style: none;
-  background-color: #1E1E1E;
-  color: #FFFFFF;
-  scroll-behavior: smooth;
-  text-decoration: none;
-}
-
 .inicio {
   height: 600px;
   display: flex;
@@ -163,27 +177,6 @@ ul .list-item {
 .inicio button a {
   color: #FFFFFF;
   text-decoration: none;
-}
-
-.buton-volver {
-  height: 80px;
-  padding: 20px 0px;
-  margin: 30px auto;
-  text-align: center;
-  width: 100%;
-  font-family: "Work Sans", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.buton-volver button {
-  border: none;
-}
-
-.buton-volver img {
-  height: 20px;
-  margin: 0px 0px 5px 10px;
 }
 
 .projects-container {
@@ -286,6 +279,27 @@ ul .list-item {
   border-bottom: 2px solid rgba(196, 151, 38, 0.8823529412);
   padding-bottom: 7px;
   width: 30%;
+}
+
+.buton-volver {
+  height: 80px;
+  padding: 20px 0px;
+  margin: 30px auto;
+  text-align: center;
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buton-volver button {
+  border: none;
+}
+
+.buton-volver img {
+  height: 20px;
+  margin: 0px 0px 5px 10px;
 }
 
 .about-me {
@@ -420,20 +434,6 @@ ul .list-item {
 .ficha-tecnica span {
   margin: 5px;
   font-size: 15px;
-}
-
-html {
-  background-color: white;
-}
-
-body {
-  max-width: 480px;
-  margin: 0 auto;
-  height: 2000px;
-}
-
-main {
-  padding-bottom: 40px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

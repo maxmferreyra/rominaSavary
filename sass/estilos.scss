@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap');
 @import "variables";
-@import "header";
 @import "normalice";
-@import "inicio";
-@import "projects";
-@import "about-me";
-@import "clientes";
-@import "proyecto-individual";
 
 
 html {
@@ -22,3 +16,449 @@ body {
 main {
     padding-bottom: 40px;
 }
+
+
+// seccion header 
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    font-family: $font-family;
+}
+
+header img {
+    margin: 15px 30px 0px 0px;
+    width: 100px;
+    height: 50px;
+}
+
+label {
+    position: relative;
+    height: 20px;
+    width: 50px;
+    display: block;
+    cursor: pointer;
+    margin-top: 15px;
+    
+}
+
+.icon-menu,
+.icon-menu::before,
+.icon-menu::after {
+    content: '';
+    width: 20px;
+    height: 2px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    background-color: $MainFontColor;
+}
+
+.icon-menu::after {
+    top: 10px;
+}
+
+.icon-menu::before {
+    top: 5px;
+}
+
+nav {
+    height: 0px;
+    transition: all 0.4s ease-in-outs 2s;
+    overflow: hidden;
+    position: absolute;
+    top: 71px;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconos-contacto {
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.iconos-contacto img {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+
+
+.check {
+    display: none;
+}
+
+.check:checked ~ label > div {
+    transform: translateY(10px) rotate(45deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.check:checked ~ label > div::before {
+    transform: translateY(-5px) rotate(90deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.check:checked ~ label > div::after {
+    opacity: 0;
+    transform: translateY(-10px) rotate(90deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.check:checked~nav {
+    height: 400px; 
+    width: 480px;
+    transition: all 0.4s ease-in-outs 2s;
+}
+
+ul .list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item {
+    width: 200px;
+    height: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 7px 30px;
+    background-color: transparent;
+   color: white;
+   transition: all 0.5s;
+   margin: 10px auto;
+   border-bottom: 1px solid $SecundaryFontColor;
+   }
+
+  // proyectos generales
+
+  .arrow-left {
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+  }
+
+
+// seccion inicio
+
+.inicio {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    h1 {
+        font-family: $font-family;
+        font-weight: 300;
+        font-size: 35px;
+        color: $SecundaryFontColor;
+
+    }
+    h2 {
+        font-family: $font-family;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    button {
+        background-color: none;
+        border: none;
+        padding-bottom: 25px;
+        scroll-behavior: smooth;
+        a {
+            color: $MainFontColor;
+            text-decoration: none;
+        }
+    }
+}
+
+
+// seccion proyectos 
+
+.projects-container {
+    width: 90%;
+    margin: 0 auto 30px auto;
+    text-align: center;
+}
+
+.projects-container img {
+    width: 100%;
+    height: 250px;
+}
+
+.project {
+    margin: 35px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80vh; 
+}
+
+.project h3 {
+    font-family: $font-family;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;  
+}
+
+.project p {
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: start;
+    line-height: 25px;
+}
+
+.project button {
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid $SecundaryFontColor;
+    padding-bottom: 7px;
+    width: 30%;
+}
+
+.project button a {
+    border: none;
+    font-size: 16px;
+}
+
+.button-todos-proyectos {
+    margin: 12px auto 0px auto;
+    border: none;
+    border-left: 2px solid $SecundaryFontColor;
+    width: 50%;
+    height: 30px;
+    font-size: 12px;
+}
+
+
+// seccion proyectos
+
+.title-projects-general {
+    font-family: $font-family;
+    font-size: 24px;
+    width: 80%;
+    margin: 60px auto 30px auto;
+}
+
+.projects-general {
+    width: 90%;
+    margin: 0 auto 30px auto;
+    text-align: center;
+}
+
+.projects-general img {
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-general {
+    margin: 30px 0px;
+    height: 45vh; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-general h3 {
+    font-family: $font-family;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 15px;
+     
+}
+
+.project-general button {
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid $SecundaryFontColor;
+    padding-bottom: 7px;
+    width: 30%;
+}
+
+
+.buton-volver {
+    height: 80px;
+    padding: 20px 0px;
+    margin: 30px auto;
+    text-align: center;
+    width: 100%;
+    font-family: $font-family;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buton-volver button {
+    border: none;
+}
+
+.buton-volver img {
+    height: 20px;
+    margin: 0px 0px 5px 10px;
+}
+
+
+
+// seccion about-me
+
+.about-me {
+    height: 100vh;
+    width: 90%;
+    margin: 60px auto 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: $font-family;
+}
+
+.about-me h3 {
+    font-size: 24px;
+    margin: 15px 0px 20px 0px;
+}
+
+.about-me p {
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: start;
+    line-height: 28px;
+}
+
+.servicios {
+    margin-top: 20px;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servicios span {
+    background-color: rgba(118, 118, 118, 0.2);
+    border-left: 2px solid $SecundaryFontColor;
+    width: 60%;
+    height: 5vh;
+    text-align: center;
+    padding-top: 18px;
+    margin: 10px 0px;
+}
+
+// seccion clientes
+
+.clientes {
+    height: 380px;
+    width: 90%;
+    margin: 90px auto 0 auto;
+}
+
+.clientes h3 {
+    font-family: $font-family;
+    font-size: 24px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.clientes .marcas {
+    height: 300px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.marcas img {
+    height: 60px;
+    margin: 10px 15px 0px 15px;
+}
+
+
+// proyectos individuales
+
+.project-individual {
+    font-family: $font-family;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 60px auto;
+}
+
+.project-individual h2 {
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 2px solid $SecundaryFontColor;
+    padding-bottom: 10px;
+}
+
+
+.imagenes-proyecto {
+    margin: 30px auto 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes-proyecto img {
+    width: 90%;
+    height: 300px;
+    margin: 0px 0px;
+    object-fit: contain;
+    margin: 20px 0px;
+}
+
+.project-individual p {
+    margin: 30px 0px;
+    font-family: $font-family;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: start;
+    line-height: 27px;
+}
+
+.ficha-tecnica {
+    margin: 5px 0px 60px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-individual a {
+    margin: 30px 0px 90px 0px;
+    border: 1px solid $SecundaryFontColor;
+    width: 25%;
+    height: 25px;
+    padding: 10px 0px 5px 13px;
+}
+
+.ficha-tecnica span {
+    margin: 5px;
+    font-size: 15px;
+}
+
+
+
