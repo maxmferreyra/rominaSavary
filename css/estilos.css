@@ -313,7 +313,7 @@ ul .list-item {
 
 
 .about-me {
-    height: 100vh;
+    
     width: 90%;
     margin: 60px auto 30px auto;
     display: flex;
@@ -357,9 +357,8 @@ ul .list-item {
 
 
 .clientes {
-    height: 380px;
     width: 90%;
-    margin: 90px auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 
 .clientes h3 {
@@ -370,7 +369,7 @@ ul .list-item {
 
 .clientes .marcas {
     height: 300px;
-    margin-top: 20px;
+    margin-top: 60px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
