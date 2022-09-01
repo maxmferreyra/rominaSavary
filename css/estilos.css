@@ -181,7 +181,7 @@ ul .list-item {
     background-color: none;
     border: none;
     padding-bottom: 25px;
-    scroll-behavior: smooth;   
+    scroll-behavior: smooth;
 }
 
 .inicio button a {
@@ -306,6 +306,12 @@ ul .list-item {
 
 .buton-volver button {
     border: none;
+  
+}
+
+.buton-volver button a {
+  font-size: 16px;
+
 }
 
 .buton-volver img {
