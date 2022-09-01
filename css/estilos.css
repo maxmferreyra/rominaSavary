@@ -78,7 +78,7 @@ nav {
     position: absolute;
     top: 71px;
     z-index: 1;
-    width: 420px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -122,7 +122,7 @@ nav {
 
 .check:checked~nav {
     height: 400px; 
-    width: 420px;
+    width: 400px;
     transition: all 0.4s ease-in-outs 2s;
     margin: 0 auto;
 }
