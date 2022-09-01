@@ -21,7 +21,8 @@
     button {
         background-color: none;
         border: none;
-       
+        padding-bottom: 25px;
+        scroll-behavior: smooth;
         a {
             color: $MainFontColor;
             text-decoration: none;

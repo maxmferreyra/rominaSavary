@@ -1,7 +1,7 @@
 .about-me {
     height: 100vh;
     width: 90%;
-    margin: 60px auto 0px auto;
+    margin: 60px auto 30px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,7 +23,7 @@
 
 .servicios {
     margin-top: 20px;
-    height: 40vh;
+    height: 45vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,8 @@
     width: 60%;
     height: 5vh;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 18px;
+    margin: 10px 0px;
 }
 
 

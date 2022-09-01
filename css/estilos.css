@@ -157,6 +157,8 @@ ul .list-item {
 .inicio button {
   background-color: none;
   border: none;
+  padding-bottom: 25px;
+  scroll-behavior: smooth;
 }
 .inicio button a {
   color: #FFFFFF;
@@ -213,7 +215,7 @@ ul .list-item {
 
 .project p {
   font-family: "Work Sans", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: lighter;
   text-align: start;
   line-height: 25px;
@@ -229,6 +231,7 @@ ul .list-item {
 
 .project button a {
   border: none;
+  font-size: 16px;
 }
 
 .button-todos-proyectos {
@@ -288,7 +291,7 @@ ul .list-item {
 .about-me {
   height: 100vh;
   width: 90%;
-  margin: 60px auto 0px auto;
+  margin: 60px auto 30px auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -310,7 +313,7 @@ ul .list-item {
 
 .servicios {
   margin-top: 20px;
-  height: 40vh;
+  height: 45vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -324,13 +327,14 @@ ul .list-item {
   width: 60%;
   height: 5vh;
   text-align: center;
-  padding-top: 8px;
+  padding-top: 18px;
+  margin: 10px 0px;
 }
 
 .clientes {
   height: 380px;
   width: 90%;
-  margin: 50px auto 0 auto;
+  margin: 90px auto 0 auto;
 }
 
 .clientes h3 {
@@ -425,44 +429,11 @@ html {
 body {
   max-width: 480px;
   margin: 0 auto;
+  height: 2000px;
 }
 
 main {
   padding-bottom: 40px;
 }
-
-/*
-section {
-    background: $colorUno;
-    h1 {
-        background-color: aqua;
-    }
-    h2 {
-        background-color: rgb(36, 56, 186);
-    }
-    p {
-        background: rgb(196, 166, 34);
-    }
-}
-
-
-@mixin cuadrado ($fondo, $alto:200px) {
-    background-color: $fondo;
-    height: $alto;
-    width: 200px;
-    margin: 5px;
-}
-
-.cuadrado-1 {
-    @include cuadrado(#111, 200px);
-}
-
-.cuadrado-2 {
-    @include cuadrado(#222);
-}
-
-.cuadrado-3 {
-    @include cuadrado(#333, 400px);
-} */
 
 /*# sourceMappingURL=estilos.css.map */
