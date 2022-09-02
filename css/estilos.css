@@ -537,8 +537,11 @@ ul .list-item {
         height: 650px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-start;
+        border: 1px solid white;
+        width: 100%;
+        margin: 0 auto;
     }
         
     .inicio h1 {
@@ -546,7 +549,7 @@ ul .list-item {
         font-size: 46px;
         color: #c49726e1;
         padding-left: 250px;
-        padding-top: 30px;
+        padding-top: 60px;
     }
     
     .inicio h2 {
@@ -563,6 +566,7 @@ ul .list-item {
         scroll-behavior: smooth;
         padding-left: 600px;
         margin-top: 0px;
+        padding-bottom: 250px;
        
     }
     
