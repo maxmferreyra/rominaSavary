@@ -923,15 +923,14 @@ ul .list-item {
     }
     
     #bugstin {
-        
-        height: 300px;
+        height: 280px;
         width: 250px;
     }
 
     
     .project-individual p {
         margin: 30px 0px;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: lighter;
         text-align: start;
         line-height: 27px;
@@ -951,14 +950,14 @@ ul .list-item {
         border: 1px solid #c49726e1;
         width: 12%;
         height: 25px;
-        font-size: 14px;
+        font-size: 15px;
         text-align: center;
         padding: 7px 0px 0px 0px;
     }
     
     .ficha-tecnica span {
         margin: 5px;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     #bugstin-general {
