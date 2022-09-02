@@ -775,13 +775,14 @@ ul .list-item {
     }
     
     .projects-general {
-        width: 90%;
-        margin: 0 auto 30px auto;
+        width: 100%;
+        margin: 0 auto 30px 30px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         text-align: center;
         flex-wrap: wrap;
+        border: 1px solid white;
     }
     
     .projects-general img {
@@ -791,8 +792,7 @@ ul .list-item {
     }
     
     .project-general {
-        border: 1px solid white;
-        margin: 30px 10px;
+        margin: 30px 5px;
         height: 60vh; 
         display: flex;
         flex-wrap: nowrap;
