@@ -561,7 +561,7 @@ ul .list-item {
         border: none;
         padding-bottom: 25px;
         scroll-behavior: smooth;
-        padding-left: 800px;
+        padding-left: 600px;
         margin-top: 120px;
        
     }
@@ -653,12 +653,12 @@ ul .list-item {
     }
     
     .about-me h3 {
-        font-size: 34px;
+        font-size: 28px;
         margin: 15px 0px 20px 0px;
     }
     
     .about-me p {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: lighter;
         text-align: start;
         line-height: 36px;
@@ -676,43 +676,68 @@ ul .list-item {
     
     .servicios span {
         background-color: rgba(118, 118, 118, 0.2);
-        border-left: 2px solid #c49726e1;
-        width: 250px;
+        border-left: 3px solid #c49726e1;
+        width: 280px;
         height: 5vh;
         text-align: center;
         padding-top: 18px;
-        margin: 10px 0px;
+        margin: 10px 5px;
+        font-size: 18px;
     }
 
     .clientes {
         width: 95%;
         margin: 0 auto 0 70px;
- 
+        height: 400px;
     }
     
     .clientes h3 {
-        font-size: 34px;
+        font-size: 28px;
         width: 100%;
     }
     
     .clientes .marcas {
-      
-        height: 220px;
-        margin: 30px auto 0px auto;
-        width: 90%;
+        height: 300px;
+        margin: 0px auto 0px auto;
+        width: 70%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: flex-start;
-        padding-top: 60px;
-       
+        padding-top: 20px;
     }
     
-    .marcas img {
-        height: 80px;
-        margin: 0px 15px 0px 15px;
+    #birque {
+        width: 220px;
+        height: 120px;
+        margin-left: 100px;
+        margin-bottom: 40px;
     }
 
+    #quirino {
+        height: 140px;
+    }
+
+    #moco {
+        margin: 50px 10px 0px 30px;
+    }
+
+    #ilusionario {
+        margin-left: 100px;
+        height: 140px;
+        width: 300px;
+    }
+
+    #osa {
+        height: 140px;
+    }
+
+    #tamandua {
+        height: 140px;
+        width: 160px;
+    }
+
+    
     .title-projects-general {
         font-size: 34px;
         width: 30%;
@@ -760,8 +785,7 @@ ul .list-item {
         border: none;
         border-bottom: 2px solid #c49726e1;
         padding-bottom: 7px;
-        width: 30%;
-        
+        width: 30%; 
         font-size: 16px;
     }
     
@@ -770,7 +794,6 @@ ul .list-item {
       }
 
     footer {
-     
         height: 200px;
         display: flex;
         justify-content: center;
@@ -795,8 +818,7 @@ ul .list-item {
     }
 
     .buton-volver {
-        margin: 0 a;
-      
+        margin: 120px auto 0px;
         width: 20%;
         height: 40px;
     
