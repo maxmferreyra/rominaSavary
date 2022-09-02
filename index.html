@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilos.css">
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Romina Savary</title>
 </head>
 <body>
@@ -37,7 +37,8 @@
             </div> 
             <button><a href="#projects"><img src="./public/img/icons/down-arrow (1).png" alt=""></a></button>
         </section>
-        <section class="projects-container" id="projects">
+        <section data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500" class="projects-container" id="projects">
             <div class="project">
                 <img src="./public/img/operasParaSoñar/opera3.jpg" alt="imagen de proyecto">
                 <h3>Óperas para soñar</h3>
@@ -98,6 +99,9 @@
             <a target="_blank" href="https://www.linkedin.com/in/rominasavary"><img src="./public/img/icons/linkedin (4).png"></a>
         </div>
     </footer>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
