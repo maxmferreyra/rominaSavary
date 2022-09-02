@@ -922,15 +922,10 @@ ul .list-item {
         object-fit: contain;   
     }
     
-    #bugstin {
-        height: 280px;
-        width: 250px;
-    }
 
-    
     .project-individual p {
         margin: 30px 0px;
-        font-size: 18px;
+        font-size: 17px;
         font-weight: lighter;
         text-align: start;
         line-height: 27px;
@@ -950,19 +945,19 @@ ul .list-item {
         border: 1px solid #c49726e1;
         width: 12%;
         height: 25px;
-        font-size: 15px;
+        font-size: 16px;
         text-align: center;
         padding: 7px 0px 0px 0px;
     }
     
     .ficha-tecnica span {
         margin: 5px;
-        font-size: 16px;
+        font-size: 17px;
     }
 
-    #bugstin-general {
-        width: 300px;
-        height: 300px;
+    #bugstin {
+        width: 280px;
+        height: 250px;
     }
 
 }
