@@ -473,7 +473,6 @@ ul .list-item {
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
-        
     }
 
     .check,
@@ -487,6 +486,7 @@ ul .list-item {
         height: 100%;
        margin-right: 80px;
        width: 35%;
+       margin-bottom: 10px;
     }
 
     .menu-nav-proyectos {
@@ -494,7 +494,7 @@ ul .list-item {
     }
 
     header img {
-        margin: 32px 0px 0px 150px;
+        margin: 20px 0px 0px 150px;
         height: 50px;
         width: 110px;
     }
@@ -503,13 +503,13 @@ ul .list-item {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 0px;
         height: 60px;
     }
     
     .list-item {
     width: 100px;
-    padding: 5px 0px;
+    padding: 0px 0px;
     color: white;
     border: none;
     font-weight: 400;
@@ -546,7 +546,7 @@ ul .list-item {
         font-size: 46px;
         color: #c49726e1;
         padding-left: 250px;
-        padding-top: 60px;
+        padding-top: 30px;
     }
     
     .inicio h2 {
@@ -562,7 +562,7 @@ ul .list-item {
         padding-bottom: 25px;
         scroll-behavior: smooth;
         padding-left: 600px;
-        margin-top: 120px;
+        margin-top: 0px;
        
     }
     
@@ -680,7 +680,7 @@ ul .list-item {
         width: 280px;
         height: 5vh;
         text-align: center;
-        padding-top: 14px;
+        padding-top: 10px;
         margin: 10px 5px;
         font-size: 18px;
     }
@@ -739,10 +739,9 @@ ul .list-item {
 
     
     .title-projects-general {
-        font-size: 34px;
+        font-size: 28px;
         width: 30%;
-        margin: 80px 0px 30px 160px;
-     
+        margin: 80px 0px 30px 130px;
     }
     
     .projects-general {
@@ -765,8 +764,8 @@ ul .list-item {
         margin: 30px 0px;
         height: 60vh; 
         display: flex;
+        flex-wrap: nowrap;
         flex-direction: column;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         width: 30%;
@@ -775,7 +774,7 @@ ul .list-item {
     .project-general h3 {
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 15px;
          
     }
