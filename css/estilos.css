@@ -464,7 +464,7 @@ ul .list-item {
 @media screen and (min-width: 960px) {
 
     body {
-        max-width: 1328px;
+        max-width: 1200px;
     }
 
     header {
