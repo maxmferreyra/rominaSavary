@@ -85,6 +85,10 @@ nav {
     align-items: center;
 }
 
+.menu-nav-proyectos {
+    display: none;
+}
+
 .iconos-contacto {
     height: 50px;
     width: 50%;
@@ -454,6 +458,440 @@ ul .list-item {
 .ficha-tecnica span {
     margin: 5px;
     font-size: 15px;
+}
+
+
+@media screen and (min-width: 960px) {
+
+    body {
+        max-width: 1800px;
+    }
+
+    header {
+        height: 90px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .check,
+    label,
+    .icon-menu {
+        display: none;
+    }
+    
+    .menu-nav {
+        position: initial;
+        height: 100%;
+       margin-right: 100px;
+       width: 35%;
+    }
+
+    .menu-nav-proyectos {
+        display: flex;
+    }
+
+    header img {
+        margin: 32px 0px 0px 200px;
+        height: 80px;
+        width: 150px;
+    }
+
+    .menu-nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        height: 60px;
+    }
+    
+    .list-item {
+    width: 100px;
+    padding: 5px 0px;
+    color: white;
+    border: none;
+    font-weight: 400;
+    margin: 0px 15px;
+    font-size: 18PX;
+    }
+
+    .list-item a {
+        padding-top: 10px;
+    }
+
+    .iconos-contacto {
+        display: none;
+    }
+
+    main {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .inicio {
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+        
+    .inicio h1 {
+        font-weight: 300;
+        font-size: 76px;
+        color: #c49726e1;
+        padding-left: 250px;
+        padding-top: 60px;
+    }
+    
+    .inicio h2 {
+        font-size: 40px;
+        margin-top: 15px; 
+        width: 100%;
+        padding-left: 250px;
+    }
+    
+    .inicio button {
+        background-color: none;
+        border: none;
+        padding-bottom: 25px;
+        scroll-behavior: smooth;
+        padding-left: 800px;
+        margin-top: 120px;
+       
+    }
+    
+    .inicio button a {
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
+
+
+    .projects-container {
+        width: 95%;
+        margin: 30px 0px 0px 70px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        position: relative;
+        height: 800px;
+    }
+    
+    
+    
+    .project {
+        margin: 35px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 400px;
+
+    }
+    
+    .projects-container img {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .project h3 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 15px; 
+        margin: 25px 0px; 
+    }
+    
+    .project p {
+        font-size: 16px;
+        font-weight: lighter;
+        text-align: start;
+        line-height: 25px;
+    }
+    
+    .project button {
+        margin: 40px 0px 50px 0px;
+        border: none;
+        border-bottom: 2px solid #c49726e1;
+        padding-bottom: 7px;
+        width: 100px;
+         width: 140px;
+    
+    }
+    
+    .project button a {
+        border: none;
+        font-size: 18px;
+       
+    }
+    
+    .button-todos-proyectos {
+        margin: 40px auto 0px auto;
+        border: none;
+        border-left: 2px solid #c49726e1;
+        width: 310px;
+        height: 30px;
+        font-size: 18px;
+        position: absolute;
+        bottom: 80px;
+    }
+
+    .about-me {
+        width: 95%;
+        margin: 60px 0px 30px 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+    
+    .about-me h3 {
+        font-size: 34px;
+        margin: 15px 0px 20px 0px;
+    }
+    
+    .about-me p {
+        font-size: 22px;
+        font-weight: lighter;
+        text-align: start;
+        line-height: 36px;
+    }
+    
+    .servicios {
+        margin-top: 60px;
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    
+    .servicios span {
+        background-color: rgba(118, 118, 118, 0.2);
+        border-left: 2px solid #c49726e1;
+        width: 250px;
+        height: 5vh;
+        text-align: center;
+        padding-top: 18px;
+        margin: 10px 0px;
+    }
+
+    .clientes {
+        width: 95%;
+        margin: 0 auto 0 70px;
+ 
+    }
+    
+    .clientes h3 {
+        font-size: 34px;
+        width: 100%;
+    }
+    
+    .clientes .marcas {
+      
+        height: 220px;
+        margin: 30px auto 0px auto;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 60px;
+       
+    }
+    
+    .marcas img {
+        height: 80px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .title-projects-general {
+        font-size: 34px;
+        width: 30%;
+        margin: 80px 0px 30px 160px;
+     
+    }
+    
+    .projects-general {
+        width: 90%;
+        margin: 0 auto 30px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    .projects-general img {
+        width: 90%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .project-general {
+        margin: 30px 0px;
+        height: 60vh; 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+    
+    .project-general h3 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 15px;
+         
+    }
+    
+    .project-general button {
+        margin-top: 30px;
+        border: none;
+        border-bottom: 2px solid #c49726e1;
+        padding-bottom: 7px;
+        width: 30%;
+        
+        font-size: 16px;
+    }
+    
+    .arrow-left {
+       display: none;
+      }
+
+    footer {
+     
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+
+    footer .iconos-contacto {
+        border-top: 2px solid #c49726e1;
+        padding-top: 20px;
+        width: 30%;
+        height: 70px;
+       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .iconos-contacto img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .buton-volver {
+        margin: 0 a;
+      
+        width: 20%;
+        height: 40px;
+    
+    }
+
+    .buton-volver button a {
+        font-size: 20px;
+    }
+
+    #iniciopro {
+        border: 1px solid white;
+        height: 30px;
+        margin-left: 140px;
+        padding-bottom: 12px;
+        border: 1px solid #c49726e1;
+    }
+
+    .project-individual {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 60px auto;
+       
+    }
+    
+    .project-individual h2 {
+        width: 35%;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #c49726e1;
+        padding-bottom: 10px;
+        font-size: 28px;
+    }
+    
+    
+    .imagenes-proyecto {
+        margin: 0px auto 30px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        object-fit: cover;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+    }
+    
+    .imagenes-proyecto img {
+        width: 30%;
+        height: 400px;
+        margin: 0px 0px;
+        object-fit: contain;
+        margin: 20px 0px;
+        margin: 0px 10px;
+    }
+    
+    #bugstin {
+        margin-top: 20px;
+        height: 300px;
+        width: 250px;
+    }
+
+    
+    .project-individual p {
+        margin: 30px 0px;
+        font-size: 22px;
+        font-weight: lighter;
+        text-align: start;
+        line-height: 27px;
+        width: 60%;
+    }
+    
+    .ficha-tecnica {
+        margin: 5px 0px 60px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .project-individual a {
+        margin: 30px 0px 90px 0px;
+        border: 1px solid #c49726e1;
+        width: 8%;
+        height: 25px;
+        padding: 10px 0px 5px 13px;
+    }
+    
+    .ficha-tecnica span {
+        margin: 5px;
+        font-size: 18px;
+    }
+
 }
 
 
