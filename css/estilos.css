@@ -183,10 +183,7 @@ ul .list-item {
 }
 
 .inicio button {
-    background-color: none;
-    border: none;
-    padding-bottom: 25px;
-    scroll-behavior: smooth;
+    visibility: hidden;
 }
 
 .inicio button a {
@@ -459,6 +456,24 @@ ul .list-item {
 .ficha-tecnica span {
     margin: 5px;
     font-size: 15px;
+}
+
+footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+footer .iconos-contacto {
+    border-top: 2px solid #c49726e1;
+    padding-top: 20px;
+    width: 30%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
