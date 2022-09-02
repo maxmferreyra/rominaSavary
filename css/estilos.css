@@ -539,7 +539,6 @@ ul .list-item {
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        border: 1px solid white;
         width: 100%;
         margin: 0 auto;
     }
