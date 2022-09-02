@@ -776,7 +776,7 @@ ul .list-item {
     
     .projects-general {
         width: 100%;
-        margin: 0 auto 30px 30px;
+        margin: 10px auto 30px 30px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -799,7 +799,7 @@ ul .list-item {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 30%;
+        width: 32%;
     }
     
     .project-general h3 {
