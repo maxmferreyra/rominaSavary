@@ -579,9 +579,11 @@ footer .iconos-contacto {
     }
     
     .inicio h2 {
-        font-size: 30px;
-        margin-top: 15px; 
+        color: #c49726e1;
+        font-size: 38px;
+        padding-top: 100px;
         width: 100%;
+        font-weight: 300;
     }
     
     .inicio button {
@@ -590,7 +592,8 @@ footer .iconos-contacto {
         padding-bottom: 25px;
         scroll-behavior: smooth;
         margin-top: 0px;
-        padding-bottom: 270px;
+        padding-bottom: 100px;
+        visibility: visible;
        
     }
     
